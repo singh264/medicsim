@@ -9,3 +9,10 @@ export type {
   ParticipantRole,
   ProtocolContext
 } from "./clinical-event.js";
+
+export {
+  ClinicalActionSchema,
+  ClinicalEventSchema,
+  EvidenceSchema,
+  ProtocolContextSchema
+} from "./schemas.js";

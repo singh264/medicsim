@@ -26,6 +26,13 @@ distinguishable.
 
 Model uncertainty must not be represented as certainty.
 
+Evidence from different modalities must remain independently
+inspectable. Multimodal fusion must not destroy the provenance,
+confidence, or timing of the underlying observations.
+
+A protocol evaluation is a conclusion derived from evidence; it is
+not itself evidence.
+
 ## 4. Scenario truth is separate from observed evidence
 
 The simulated patient's true state must remain separate from what
